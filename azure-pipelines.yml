@@ -19,7 +19,7 @@ steps:
 - script: |
     #composer install  # Execute comandos específicos para o seu projeto Drupal, como instalar módulos
     #drush updatedb  # Atualize o banco de dados, se necessário
-    #drush cr  # Limpe o cache do Drupal
+    drush cr  # Limpe o cache do Drupal
     composer require drush/drush
   displayName: 'instalar drupal'
 

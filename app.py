@@ -3,3 +3,4 @@ print ('teste')
 def test_common_prefix():
     r = test_common_prefix()
 ###
+###
